@@ -8,7 +8,7 @@ This repository contains practice exercises for learning indexing in Python. The
 2. [Indexing Syntax](#indexing-syntax)
 3. [Practice Example](#practice-example)
 4. [Indexing Methods Explained](#indexing-methods-explained)
-5. [Key Concepts Learned](#key-concepts-learned)
+5. [Key Concepts Learnt](#key-concepts-learnt)
 
 ---
 
