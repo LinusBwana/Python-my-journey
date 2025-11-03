@@ -141,7 +141,7 @@ elif 28 > temp > 0 and not is_sunny:
    python filename.py
    ```
 
-## Key Concepts Learned
+## Key Concepts Learnt
 
 - Basic if-elif-else statements
 - User input handling with `input()`

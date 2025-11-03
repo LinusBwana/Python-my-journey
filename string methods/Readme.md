@@ -73,16 +73,7 @@ else:
 
 ---
 
-## Key Concepts Learned
-
-### If Statements & Logic
-- Basic if-elif-else statements
-- User input handling with `input()`
-- Type conversion with `float()` and `str()`
-- Logical operators (`and`, `or`, `not`)
-- Comparison operators (`==`, `>`, `<`, `>=`, `<=`)
-- F-strings for formatted output
-- Rounding numbers with `round()`
+## Key Concepts Learnt
 
 ### String Methods
 - `len()` - Measuring string length
