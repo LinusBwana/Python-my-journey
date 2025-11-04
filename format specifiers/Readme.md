@@ -1,6 +1,6 @@
 # Python Format Specifiers Practice
 
-This repository contains practice exercises for learning format specifiers in Python. These examples demonstrate how to control the appearance and formatting of values in f-strings.
+This directory contains practice exercises for learning format specifiers in Python. These examples demonstrate how to control the appearance and formatting of values in f-strings.
 
 ## Contents
 

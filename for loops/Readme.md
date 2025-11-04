@@ -1,6 +1,6 @@
 # Python For Loops Practice
 
-This repository contains practice exercises for learning for loops in Python. These examples demonstrate how to execute code a fixed number of times by iterating over sequences.
+This reposdirectoryitory contains practice exercises for learning for loops in Python. These examples demonstrate how to execute code a fixed number of times by iterating over sequences.
 
 ## Contents
 

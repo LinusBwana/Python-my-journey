@@ -1,6 +1,6 @@
 # Python Indexing Practice
 
-This repository contains practice exercises for learning indexing in Python. These examples demonstrate how to access and manipulate elements within sequences using the indexing operator.
+This directory contains practice exercises for learning indexing in Python. These examples demonstrate how to access and manipulate elements within sequences using the indexing operator.
 
 ## Contents
 

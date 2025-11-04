@@ -1,6 +1,6 @@
 # Python If Statements Practice
 
-This repository contains practice exercises for learning if statements in Python. These examples demonstrate basic conditional logic, logical operators, and practical applications.
+This directory contains practice exercises for learning if statements in Python. These examples demonstrate basic conditional logic, logical operators, and practical applications.
 
 ## Contents
 

@@ -1,6 +1,6 @@
 # Python While Loops Practice
 
-This repository contains practice exercises for learning while loops in Python. These examples demonstrate how to execute code repeatedly while a condition remains true.
+This directory contains practice exercises for learning while loops in Python. These examples demonstrate how to execute code repeatedly while a condition remains true.
 
 ## Contents
 
