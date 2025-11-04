@@ -169,7 +169,7 @@ Balance after 3.0 year/s: $1157.63
 3. Run any Python file:
    ```bash
    python while_loops.py
-   python "compound interest calculator - while loops.py"
+   python compound_interest_calculator.py
    ```
 
 ---
