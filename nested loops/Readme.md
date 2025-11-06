@@ -325,7 +325,3 @@ for i in range(5):
         print(i, j)
 # Output: 25 combinations (5 × 5 iterations)
 ```
-
----
-
-**Happy Coding!**
