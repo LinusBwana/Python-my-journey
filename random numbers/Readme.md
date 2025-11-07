@@ -535,5 +535,3 @@ if user_wants_hint and hints_left > 0:
 | `shuffle(list)` | Shuffle list in place | `shuffle([1,2,3])` | `[3,1,2]` |
 
 ---
-
-**Happy Coding!**
