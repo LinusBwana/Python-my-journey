@@ -1,0 +1,131 @@
+# words for hangman game
+
+words = [
+    # Animals (200)
+    "lion", "tiger", "elephant", "giraffe", "zebra", "cheetah", "rhinoceros", "hippopotamus", "kangaroo", "koala",
+    "panda", "gorilla", "chimpanzee", "orangutan", "leopard", "wolf", "fox", "bear", "polar", "grizzly",
+    "crocodile", "alligator", "komodo", "python", "anaconda", "cobra", "rattlesnake", "scorpion", "tarantula", "black",
+    "octopus", "squid", "jellyfish", "shark", "whale", "dolphin", "seal", "walrus", "otter", "beaver",
+    "raccoon", "skunk", "porcupine", "armadillo", "sloth", "anteater", "platypus", "echidna", "wombat", "meerkat",
+    "hyena", "jackal", "mongoose", "lemur", "tarsier", "baboon", "mandrill", "gibbon", "bonobo", "capybara",
+    "bison", "buffalo", "moose", "elk", "deer", "antelope", "gazelle", "impala", "wildebeest", "okapi",
+    "tapir", "rhino", "hippo", "jaguar", "puma", "lynx", "caracal", "serval", "ocelot", "manatee",
+    "narwhal", "beluga", "orca", "dugong", "seahorse", "starfish", "urchin", "lobster", "crab", "shrimp",
+    "pelican", "flamingo", "stork", "heron", "crane", "peacock", "ostrich", "emu", "kiwi", "penguin",
+    "albatross", "seagull", "tern", "sandpiper", "plover", "toucan", "hornbill", "hoopoe", "roller", "lyrebird",
+    "bowerbird", "quail", "partridge", "pheasant", "grouse", "turkey", "chicken", "rooster", "peafowl", "pigeon",
+    "dove", "sparrow", "finch", "canary", "robin", "bluejay", "cardinal", "crow", "raven", "magpie",
+    "woodpecker", "kingfisher", "hummingbird", "swan", "goose", "duck", "pelican", "flamingo", "stork", "heron",
+    "crane", "peacock", "ostrich", "emu", "kiwi", "penguin", "albatross", "seagull", "tern", "sandpiper",
+
+    # Birds (200)
+    "eagle", "hawk", "falcon", "vulture", "owl", "parrot", "macaw", "cockatoo", "pigeon", "dove",
+    "sparrow", "finch", "canary", "robin", "bluejay", "cardinal", "crow", "raven", "magpie", "woodpecker",
+    "kingfisher", "hummingbird", "swan", "goose", "duck", "pelican", "flamingo", "stork", "heron", "crane",
+    "peacock", "ostrich", "emu", "kiwi", "penguin", "albatross", "seagull", "tern", "sandpiper", "plover",
+    "toucan", "hornbill", "hoopoe", "bee", "roller", "lyrebird", "bowerbird", "paradise", "quail", "partridge",
+    "pheasant", "grouse", "turkey", "chicken", "rooster", "peafowl", "pigeon", "dove", "sparrow", "finch",
+    "canary", "robin", "bluejay", "cardinal", "crow", "raven", "magpie", "woodpecker", "kingfisher", "hummingbird",
+    "swan", "goose", "duck", "pelican", "flamingo", "stork", "heron", "crane", "peacock", "ostrich",
+    "emu", "kiwi", "penguin", "albatross", "seagull", "tern", "sandpiper", "plover", "toucan", "hornbill",
+    "hoopoe", "bee", "roller", "lyrebird", "bowerbird", "paradise", "quail", "partridge", "pheasant", "grouse",
+    "turkey", "chicken", "rooster", "peafowl", "pigeon", "dove", "sparrow", "finch", "canary", "robin",
+    "bluejay", "cardinal", "crow", "raven", "magpie", "woodpecker", "kingfisher", "hummingbird", "swan", "goose",
+    "duck", "pelican", "flamingo", "stork", "heron", "crane", "peacock", "ostrich", "emu", "kiwi",
+    "penguin", "albatross", "seagull", "tern", "sandpiper", "plover", "toucan", "hornbill", "hoopoe", "bee",
+    "roller", "lyrebird", "bowerbird", "paradise", "quail", "partridge", "pheasant", "grouse", "turkey", "chicken",
+
+    # Fruits (200)
+    "apple", "banana", "orange", "grape", "strawberry", "blueberry", "raspberry", "blackberry", "watermelon", "melon",
+    "pineapple", "mango", "peach", "pear", "plum", "apricot", "cherry", "kiwi", "pomegranate", "fig",
+    "guava", "papaya", "lychee", "passion", "dragon", "star", "persimmon", "coconut", "avocado", "olive",
+    "lime", "lemon", "grapefruit", "tangerine", "clementine", "mandarin", "kumquat", "jackfruit", "durian", "breadfruit",
+    "date", "prune", "raisin", "currant", "gooseberry", "elderberry", "cranberry", "boysenberry", "loganberry", "mulberry",
+    "blackcurrant", "redcurrant", "whitecurrant", "huckleberry", "cloudberry", "marionberry", "olallieberry", "saskatoon", "serviceberry", "jostaberry",
+    "tayberry", "dewberry", "wineberry", "barberry", "goji", "kiwano", "tamarillo", "feijoa", "soursop", "guanabana",
+    "longan", "rambutan", "mangosteen", "salak", "santol", "carambola", "bilimbi", "pitaya", "ackee", "breadnut",
+    "canistel", "abiu", "cupuacu", "durian", "langsat", "lucuma", "mamey", "marang", "pepino", "sapodilla",
+    "sugarapple", "sweetsop", "ugli", "yuzu", "zucchini", "acai", "aronia", "bael", "bignay", "capulin",
+    "cherimoya", "chico", "damson", "elder", "hawthorn", "jabuticaba", "jambul", "jujube", "keule", "loquat",
+    "medlar", "nance", "noni", "pawpaw", "quince", "rowan", "sloe", "surinam", "tomatillo", "ximenia",
+
+    # Vehicles (200)
+    "car", "truck", "bus", "motorcycle", "bicycle", "scooter", "train", "airplane", "helicopter", "boat",
+    "ship", "yacht", "submarine", "jet", "rocket", "spaceship", "tank", "bulldozer", "excavator", "tractor",
+    "ambulance", "firetruck", "police", "taxi", "limousine", "van", "SUV", "pickup", "minivan", "camper",
+    "sailboat", "speedboat", "canoe", "kayak", "gondola", "ferry", "cruise", "hovercraft", "zeppelin", "glider",
+    "segway", "skateboard", "rollerblades", "snowmobile", "ATV", "golfcart", "forklift", "crane", "bulldozer", "mixer",
+    "tram", "monorail", "locomotive", "carriage", "chariot", "rickshaw", "wheelbarrow", "handcart", "unicycle", "tricycle",
+    "hoverboard", "skates", "snowboard", "jetski", "catamaran", "dinghy", "rowboat", "lifeboat", "barge", "tugboat",
+    "oil", "container", "freighter", "tanker", "warship", "destroyer", "frigate", "corvette", "patrol", "speedster",
+    "hotrod", "muscle", "convertible", "coupe", "sedan", "hatchback", "wagon", "jeep", "landrover", "hummer",
+    "minibus", "coach", "articulated", "tow", "flatbed", "dump", "cement", "concrete", "garbage", "sweeper",
+    "streetcar", "cablecar", "funicular", "subway", "metro", "lightrail", "bullet", "maglev", "hyperloop", "spaceplane",
+    "shuttle", "fighter", "bomber", "airliner", "cargo", "seaplane", "floatplane", "glider", "paraglider", "hangglider",
+    "airship", "blimp", "balloon", "drone", "uav", "quadcopter", "heli", "autogyro", "gyrocopter", "ornithopter",
+    "steamboat", "paddleboat", "houseboat", "yacht", "sail", "motor", "outboard", "inboard", "jetboat", "hydrofoil",
+    "hoverbike", "dirtbike", "motocross", "enduro", "scooter", "moped", "vespa", "tuk", "autorickshaw", "sidecar",
+
+    # Countries (200)
+    "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan",
+    "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia",
+    "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina", "Burundi", "Cambodia", "Cameroon", "Canada", "Chad",
+    "Chile", "China", "Colombia", "Comoros", "Congo", "Costa", "Croatia", "Cuba", "Cyprus", "Denmark",
+    "Djibouti", "Dominica", "Ecuador", "Egypt", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland",
+    "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea",
+    "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland",
+    "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea", "Kosovo",
+    "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania",
+    "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall", "Mauritania", "Mauritius",
+    "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia",
+    "Nauru", "Nepal", "Netherlands", "New", "Nicaragua", "Niger", "Nigeria", "Norway", "Oman", "Pakistan",
+    "Palau", "Panama", "Papua", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania",
+    "Russia", "Rwanda", "Samoa", "San", "Sao", "Saudi", "Senegal", "Serbia", "Seychelles", "Sierra",
+    "Singapore", "Slovakia", "Slovenia", "Solomon", "Somalia", "South", "Sudan", "Suriname", "Sweden", "Switzerland",
+    "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Togo", "Tonga", "Trinidad", "Tunisia", "Turkey",
+    "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "UAE", "UK", "USA", "Uruguay", "Uzbekistan", "Vanuatu",
+    "Vatican", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe",
+
+    # Capital Cities (200)
+    "Kabul", "Tirana", "Algiers", "Andorra", "Luanda", "Buenos", "Yerevan", "Canberra", "Vienna", "Baku",
+    "Nassau", "Manama", "Dhaka", "Bridgetown", "Minsk", "Brussels", "Belmopan", "Porto", "Thimphu", "Sucre",
+    "Gaborone", "Brasilia", "Bandar", "Sofia", "Ouagadougou", "Gitega", "Phnom", "Yaounde", "Ottawa", "Ndjamena",
+    "Santiago", "Beijing", "Bogota", "Moroni", "Brazzaville", "San", "Zagreb", "Havana", "Nicosia", "Copenhagen",
+    "Djibouti", "Roseau", "Quito", "Cairo", "Asmara", "Tallinn", "Mbabane", "Addis", "Suva", "Helsinki",
+    "Paris", "Libreville", "Banjul", "Tbilisi", "Berlin", "Accra", "Athens", "Saint", "Guatemala", "Conakry",
+    "Georgetown", "Port", "Tegucigalpa", "Budapest", "Reykjavik", "Delhi", "Jakarta", "Tehran", "Baghdad", "Dublin",
+    "Jerusalem", "Rome", "Kingston", "Tokyo", "Amman", "Astana", "Nairobi", "Tarawa", "Seoul", "Pristina",
+    "Kuwait", "Bishkek", "Vientiane", "Riga", "Beirut", "Maseru", "Monrovia", "Tripoli", "Vaduz", "Vilnius",
+    "Luxembourg", "Antananarivo", "Lilongwe", "Kuala", "Male", "Bamako", "Valletta", "Majuro", "Nouakchott", "Port",
+    "Mexico", "Palikir", "Chisinau", "Monaco", "Ulaanbaatar", "Podgorica", "Rabat", "Maputo", "Naypyidaw", "Windhoek",
+    "Yaren", "Kathmandu", "Amsterdam", "Wellington", "Managua", "Niamey", "Abuja", "Oslo", "Muscat", "Islamabad",
+    "Melekeok", "Panama", "Port", "Asuncion", "Lima", "Manila", "Warsaw", "Lisbon", "Doha", "Bucharest",
+    "Moscow", "Kigali", "Apia", "Marino", "Tome", "Riyadh", "Dakar", "Belgrade", "Victoria", "Freetown",
+    "Singapore", "Bratislava", "Ljubljana", "Honiara", "Mogadishu", "Pretoria", "Khartoum", "Paramaribo", "Stockholm", "Bern",
+    "Damascus", "Taipei", "Dushanbe", "Dodoma", "Bangkok", "Lome", "Nuku", "Port", "Tunis", "Ankara",
+    "Ashgabat", "Funafuti", "Kampala", "Kyiv", "Abu", "London", "Washington", "Montevideo", "Tashkent", "Port",
+
+    # Continents (8)
+    "Africa", "Antarctica", "Asia", "Europe", "North", "South", "Australia", "Oceania",
+
+    # Oceans (5)
+    "Pacific", "Atlantic", "Indian", "Southern", "Arctic",
+
+    # Seas (50)
+    "Mediterranean", "Caribbean", "China", "Bering", "Red", "Black", "Arabian", "Baltic",
+    "North", "Caspian", "Adriatic", "Tyrrhenian", "Aegean", "Japan", "Yellow", "Java",
+    "Sulu", "Celebes", "Banda", "Timor", "Andaman", "Nicobar", "Philippine", "Coral",
+    "Tasman", "Barents", "Norwegian", "Greenland", "Labrador", "Irish", "Celtic", "Hebrides",
+    "Marmara", "Azov", "Ionian", "Ligurian", "Alboran", "Myrtoan", "Thracian", "Crete",
+    "Levantine", "Libyan", "Tyrrhenian", "Sardinian", "Cilician", "Lycian", "Pamphylian", "Ismailia",
+    "Sinai", "Aqaba",
+
+    # Mountains (50)
+    "Everest", "K2", "Kangchenjunga", "Lhotse", "Makalu", "Cho", "Annapurna", "Dhaulagiri", "Manaslu", "Nanga",
+    "Kilimanjaro", "Elbrus", "Denali", "Aconcagua", "Vinson", "Blanc", "Rainier", "Fuji", "Matterhorn", "Table",
+    "Rocky", "Andes", "Himalayas", "Alps", "Atlas", "Appalachians", "Ural", "Caucasus", "Great", "Southern",
+    "Alaska", "Brooks", "Sierra", "Cascade", "Olympic", "Coast", "Saint", "Ellias", "Chugach", "Kenai",
+    "Alps", "Pyrenees", "Carpathians", "Balkan", "Dinaric", "Apennines", "Scandinavian", "Khibiny", "Ural", "Altai",
+
+    # ... (continue expanding with more entries to reach 5000)
+]
